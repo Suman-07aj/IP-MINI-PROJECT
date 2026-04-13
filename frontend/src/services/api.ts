@@ -1,7 +1,7 @@
 import { Student, StudentLogin, Event, EventRegistration } from '../types';
 
-const STUDENT_API_URL = 'http://localhost:8081/api/students';
-const EVENT_API_URL = 'http://localhost:8082/api/events';
+const STUDENT_API_URL = 'https://student-service-xxxx.onrender.com/api/students';
+const EVENT_API_URL = 'https://event-service-k6y4.onrender.com/api/events';
 
 export const studentService = {
   register: async (student: Student): Promise<void> => {
