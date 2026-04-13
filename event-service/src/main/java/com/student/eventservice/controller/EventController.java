@@ -29,7 +29,7 @@ public class EventController {
         return ResponseEntity.ok(events);
     }
     
-    @PostMapping
+    @PostMapping("/add")
     public ResponseEntity<Event> createEvent(@RequestBody Event event) {
         Event savedEvent = eventService.saveEvent(event);
         return ResponseEntity.ok(savedEvent);
