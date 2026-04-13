@@ -1,0 +1,5 @@
+com\student\eventservice\EventServiceApplication.class
+com\student\eventservice\model\Event.class
+com\student\eventservice\controller\EventController.class
+com\student\eventservice\repository\EventRepository.class
+com\student\eventservice\service\EventService.class
